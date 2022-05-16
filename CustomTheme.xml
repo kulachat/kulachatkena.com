@@ -953,7 +953,6 @@ loadCSS("https://fonts.googleapis.com/css?family=Prompt");loadCSS("https://fonts
 </script>
 
 <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet'/>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'/>
 </head>
 
 <body itemscope='itemscope' itemtype='https://schema.org/WebPage'>
@@ -1257,7 +1256,7 @@ user is not using shrink to fit then we expand the header.
 <div class='text-right'>
   <nav id='navigation' role='navigation'>
     <ul class='main-nav'>
-      <li><a href='https://discord.gg/eAAjhT3F'>🧑🏻‍💻 Community On Discord</a></li>
+      <li><a href='https://discord.gg/eAAjhT3F'>🧑🏻‍💻 Joint Discord</a></li>
       <li><a href='https://forms.gle/Ay8jFoNL2v2ACT777' target='_blank'>🤘🏻 Contact</a></li>
     </ul>
   </nav>
@@ -1269,20 +1268,6 @@ user is not using shrink to fit then we expand the header.
 </header>
 </div>
 <!-- Header End -->
-
-<!-- Navigation Menu Start -->
-<div class='menu-outer'>
-<nav id='themenu'>
-<input type='checkbox'/>
-<label/>
-            <!-- Pages-based menu added by BTemplates.com -->
-            <div><div>
-            <!-- Pages -->
-            <b:section id='pagesmenuwidget' maxwidgets='1' showaddelement='no'/>
-            <!-- /Pages -->
-            </div></div>
-</nav></div>
-<!-- Navigation Menu End -->
 
 <!-- Cover page home page  -->
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
@@ -1312,8 +1297,6 @@ user is not using shrink to fit then we expand the header.
 
 <div class='container' id='outer-wrapper'>
 
-<b:section class='ads970' id='ads970' maxwidgets='1' showaddelement='yes'/>
-
 <!-- Post Start -->
 <div id='post-wrapper'>
 <div class='post-container'>
@@ -1339,7 +1322,6 @@ user is not using shrink to fit then we expand the header.
       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
       <b:widget-setting name='showBacklinks'>false</b:widget-setting>
       <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
       <b:widget-setting name='showReactions'>false</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main' var='top'>
@@ -2105,14 +2087,6 @@ function pageNavi(o){var m=location.href,l=m.indexOf("/search/label/")!=-1,a=l?m
 <!-- Banner Ads Footer Article Page  -->
 <br/>
 
-<div id='banner-ads-footer-article' style='display: none;'>
-  <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
-  <!-- Dynamic Ads -->
-  <ins class='adsbygoogle' data-ad-client='ca-pub-2505815349714761' data-ad-format='auto' data-ad-slot='4008460309' style='display:block'/>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div>
 
 <!-- Share Button Start -->
 <script type='text/javascript'>
@@ -2659,40 +2633,6 @@ resizeThumb('post-wrapper', 600);
 </b:if>
 </b:if>
 
-<script type='text/javascript'>
-//<![CDATA[
-$(function(){var pull=$('#pull');menu=$('#navi ul');menuHeight=menu.height();$(pull).on('click',function(e){e.preventDefault();menu.slideToggle()})});
-//]]></script>
-<script type='text/javascript'>
-//<![CDATA[
-var ww=document.body.clientWidth;$(document).ready(function(){$(".nav li a").each(function(){if($(this).next().length>0){$(this).addClass("parent")}});$(".toggleMenu").click(function(e){e.preventDefault();$(this).toggleClass("active");$(".nav").toggle()});adjustMenu()});$(window).bind("resize orientationchange",function(){ww=document.body.clientWidth;adjustMenu()});var adjustMenu=function(){if(ww<768){$(".toggleMenu").css("display","inline-block");if(!$(".toggleMenu").hasClass("active")){$(".nav").hide()}else{$(".nav").show()}$(".nav li").unbind("mouseenter mouseleave");$(".nav li a.parent").unbind("click").bind("click",function(e){e.preventDefault();$(this).parent("li").toggleClass("hover")})}else if(ww>=768){$(".toggleMenu").css("display","none");$(".nav").show();$(".nav li").removeClass("hover");$(".nav li a").unbind("click");$(".nav li").unbind("mouseenter mouseleave").bind("mouseenter mouseleave",function(){$(this).toggleClass("hover")})}}
-//]]>
-</script>
-
-<!-- <script type='text/javascript'>
-//Back To Top jQuery
-      if ($(&#39;#back-to-top&#39;).length) {
-            var scrollTrigger = 200, // px
-            backToTop = function () {
-          var scrollTop = $(window).scrollTop();
-      if (scrollTop &gt; scrollTrigger) {
-        $(&#39;#back-to-top&#39;).addClass(&#39;show&#39;);
-          } else {
-          $(&#39;#back-to-top&#39;).removeClass(&#39;show&#39;);
-          }
-          };
-          backToTop();
-        $(window).on(&#39;scroll&#39;, function () {
-                     backToTop();
-      });
-      $(&#39;#back-to-top&#39;).on(&#39;click&#39;, function (e) {
-        e.preventDefault();
-      $(&#39;html,body&#39;).animate({
-        scrollTop: 0
-        }, 700);
-      });
-      }
-</script> -->
 
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <script type='text/javascript'>
@@ -2701,13 +2641,7 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h4>
 //]]>
 </script>
 </b:if>
-<script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: &quot;ca-pub-2505815349714761&quot;,
-    enable_page_level_ads: true
-  });
-</script>
+
 <script type='application/ld+json'>
 { &quot;@context&quot;: &quot;http://schema.org&quot;,
  &quot;@type&quot;: &quot;BlogPosting&quot;,
