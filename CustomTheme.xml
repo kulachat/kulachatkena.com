@@ -2587,25 +2587,13 @@ this way you can track your subscriptions -->
 <div class='outs'>
 <footer class='container' id='footer-wrapper'>
 <div class='row' id='footer-info'>
-  <div class='col-md-5 d-none'>
-    <h3 class='title-footer'>About</h3>
-    <p>Front-End UI/UX Freelance/Contract ผมเคยทำงานร&#3656;วมก&#3633;บองค&#3660;กรท&#3640;กขนาด ต&#3633;&#3657;งแต&#3656;กระบวนการเร&#3636;&#3656;มต&#3657;นไปจนถ&#3638;งเป&#3636;ดต&#3633;วโปรด&#3633;กส&#3660; ท&#3633;&#3657;งองค&#3660;กรระด&#3633;บนานาชาต&#3636;ไปจนถ&#3638;งแบรนด&#3660;ช&#3633;&#3657;นนำในภาคเอกชนภาคร&#3633;ฐและภาคส&#3633;งคม</p>
-  </div>
-  <div class='col-md-3 d-none'>
-    <h3 class='title-footer'>CLIENTS &amp; CUSTOMERS </h3>
-    <p>UN, ESCAP, odd-e Japan, SANSIRI, Intel, Hero Digital, Western Digital (WD)</p>
-  </div>
-  <div class='col-md-4 d-none'>
-    <h3 class='title-footer'>Availability</h3>
-    <p>
-      ขณะน&#3637;&#3657;ผมกำล&#3633;งทำโครงการพ&#3633;ฒนา UX/UI ให&#3657;ก&#3633;บบร&#3636;ษ&#3633;ทโทรคมนาคมเจ&#3657;าหน&#3638;&#3656;งในไทย ช&#3656;วง Q1 - Q3 ป&#3637; 2018
-      คาดว&#3656;าจะสามารถร&#3633;บงานเพ&#3636;&#3656;มได&#3657;อ&#3637;กในเด&#3639;อนต&#3640;ลาคม
-    </p>
-  </div>
   <div class='col-md-12'>
-    <small>
+    <span class='mr-4'>
+      <a class="text-white" href='https://www.kulachatkena.com/p/documents.html'>All Articles</a>
+    </span>
+    <span>
       <a expr:href='data:blog.homepageUrl' rel='copyright'><data:blog.title/></a> &#169; 2016 - All Right Reserved
-    </small>
+    </span>
   </div>
 </div>
 </footer>
