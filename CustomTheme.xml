@@ -75,11 +75,10 @@ body#layout #sidebar-wrapper {width:36%;float:left;margin-top:2px;margin-left:10
 body#layout ul, li {display:none}
 /*
 Blogger Template Style Info :
-Name              : Gridster Blogger Template
+Name              : Tech Thaiban
 Version			  : 1.0
-Designer          : Ade Mulyawan
-URL               : https://kezzeter.blogspot.com/ - facebook.com/adekpt18
-Special Thanks to : ALLAH SWT.
+Designer          : Kulachat Kena
+URL               : github.com/kulachat
 License 		  : Free
 */
 
@@ -177,8 +176,12 @@ table.tr-caption-container{padding:1px;margin-bottom:.5em}
 td.tr-caption{font-size:87%}
 
 /* Body */
+:root {
+  --bg-dark: #0e1117;
+}
+
 body{
-  background:#1b1b1b;
+  background: var(--bg-dark);
   margin:0;padding:0;color:#000;text-align:left;
   font-faily: "noto-sans-thai", noto-sans, sans-serif !important;
   font-size:17px;
@@ -324,7 +327,7 @@ a.home-link {display:none;}
 }
 
 /* Header */
-#header-wrapper {margin:0 auto;overflow:hidden;padding:5px 0 5px 0; border-bottom: 1px solid rgba(0,0,0,0.14);}
+#header-wrapper {margin:0 auto;overflow:hidden;padding:5px 0 5px 0; border-bottom: 1px solid rgb(26 28 31);}
 .header { padding-left: 15px;}
 .header h1.title,.header p.title {font:bold 24px Verdana;margin:0 0 0 0;text-transform:uppercase;color:#333}
 .header .description {color:#454545;font:bold 13px Arial;margin:9px 0 2px 0;}
@@ -404,7 +407,7 @@ margin:0 0 11px 0;
 .post &gt; .article-content {
     overflow: hidden;
     padding: 2rem 0;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #33333352;
 }
 
 h2.post-title, h1.post-title {
@@ -419,7 +422,7 @@ h1.post-title a:hover {color:#45484c;text-decoration:none;}
 .post-info {background:transparent;margin:0 0 20px;color:#555;font-size:14px; position: static;}
 .post-info a {color:#555;}
 .post-info a:hover {color:#333;}
-.author-info, .time-info, .comment-info { margin-right:10px;display:inline; font-size: 15px;}
+.author-info, .time-info, .comment-info { margin-right:10px;display:inline; font-size: 12px;}
 .author-info:before{content:&quot;\f007&quot;;font-family:FontAwesome;font-size:11px;font-weight:normal;color:#888;}
 <!-- .time-info:before{content:&quot;\f133&quot;;font-family:FontAwesome;font-size:11px;font-weight:normal;color:#888;} -->
 .comment-info:before{content:&quot;\f086&quot;;font-family:FontAwesome;font-size:11px;font-weight:normal;color:#888;}
